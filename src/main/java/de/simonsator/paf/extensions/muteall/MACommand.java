@@ -12,7 +12,7 @@ import java.util.UUID;
 
 public abstract class MACommand extends FriendSubCommand {
 	private final ConfigurationCreator CONFIG;
-	private HashSet<UUID> DEACTIVATE = new HashSet<>();
+	private final HashSet<UUID> DEACTIVATE = new HashSet<>();
 
 	protected MACommand(String[] pCommands, int pPriority, String pHelp, ConfigurationCreator pConfig) {
 		super(pCommands, pPriority, pHelp);

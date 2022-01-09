@@ -1,7 +1,7 @@
 name: Mute-All-For-PAF
 version: ${project.version}
 author: Simonsator
-depends: [PartyAndFriends]
+depends: [ PartyAndFriends ]
 main: de.simonsator.paf.extensions.muteall.MAMain
 description: An add-on for party and friends to add /friend muteall
 api-version: 1.13
