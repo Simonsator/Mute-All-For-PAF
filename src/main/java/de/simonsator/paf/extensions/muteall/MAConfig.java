@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class MAConfig extends ConfigurationCreator {
 	protected MAConfig(File file, PAFExtension pPlugin) throws IOException {
-		super(file, pPlugin);
+		super(file, pPlugin, true);
 		readFile();
 		loadDefaultValues();
 		saveFile();
