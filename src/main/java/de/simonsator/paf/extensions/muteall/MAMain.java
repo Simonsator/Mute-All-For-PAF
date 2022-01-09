@@ -13,7 +13,7 @@ import java.io.IOException;
 public class MAMain extends PAFExtension {
 	public void onEnable() {
 		try {
-			ConfigurationCreator config = new MAConfig(new File(getDataFolder(), "config.yml"), this);
+			ConfigurationCreator config = new MAConfig(new File(getConfigFolder(), "config.yml"), this);
 			MACommand command;
 			switch (getAdapter().getServerSoftware()) {
 				case BUNGEECORD:
