@@ -6,7 +6,7 @@
 
 	<groupId>de.simonsator</groupId>
 	<artifactId>Mute-All-For-PAF</artifactId>
-	<version>1.0.2-RELEASE</version>
+	<version>1.0.3-RELEASE</version>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
@@ -47,7 +47,7 @@
 		<dependency>
 			<groupId>de.simonsator</groupId>
 			<artifactId>BungeecordPartyAndFriends</artifactId>
-			<version>1.0.85</version>
+			<version>1.0.86</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
